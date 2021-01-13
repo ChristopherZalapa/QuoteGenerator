@@ -43,6 +43,34 @@ body {
   font-style: italic;
 }
 
+.quote-container .button-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quote-container .button-container button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  outline: none;
+  background: #333;
+  padding: 0.5rem 1.8rem;
+  box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+}
+
+.quote-container .button-container button:hover {
+  filter: brightness(110%);
+}
+
+.quote-container .button-container button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
 @media screen and (max-width: 1000px) {
   .quote-container {
     margin: auto 10px;
