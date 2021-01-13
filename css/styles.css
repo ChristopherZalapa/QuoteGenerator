@@ -71,6 +71,14 @@ body {
   box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
 }
 
+.quote-container .button-container button.twitter-button:hover {
+  color: #38a1f3;
+}
+
+.quote-container .button-container button .fa-twitter {
+  font-size: 1.5rem;
+}
+
 @media screen and (max-width: 1000px) {
   .quote-container {
     margin: auto 10px;
